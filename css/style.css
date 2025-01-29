@@ -1,13 +1,17 @@
 body {
   background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #mags {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', serif;
   font-size: 17px;
-  font-weight: 300;
+  font-weight: 200;
+  margin-top: 11px;
+  margin-left: 10px;
   width: 400px; /* Set the desired width */
-  padding: 5px; /* Add padding inside the box */
+  padding: 0px; /* Add padding inside the box */
   border: none; /* Add a border around the box */
   line-height: 1.4; /* Adjust line spacing */
   color: black;
@@ -15,15 +19,13 @@ body {
 }
 
 #mags > div {
-  display: block;
   margin-bottom: 16px; /* Adds spacing between each div */
 }
 
 #mags .email {
-  margin-bottom: 12px;
   text-decoration: underline; /* Underlines the email */
   text-decoration-thickness: 0.25px; /* Thin underline */
-  text-underline-offset: 2px; /* Adds spacing between underline and text */
+  text-underline-offset: 4px; /* Adds spacing between underline and text */
 }
 #mags .italic {
   font-style: italic; /* Makes text italic */

@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function randomOffset() {
     let randomDigit = Math.random();
     console.log(randomDigit);
-    return Math.floor(randomDigit * 300 - 150); // Random value between -10 and 10
+    return Math.floor(randomDigit * 300 - 150);
   }
 
   // Add mouse-enter event-listeners to each letter.
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const letters = document.querySelectorAll('.letter');
     letters.forEach((letter) => {
       letter.addEventListener('mouseenter', () => {
-        letter.style.transition = 'transform 0.7s ease';
+        letter.style.transition = 'transform 1s ease';
         letter.style.transform = `translate(${randomOffset()}px, ${randomOffset()}px)`;
       });
     });
