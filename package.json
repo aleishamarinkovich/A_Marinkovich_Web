@@ -2,6 +2,7 @@
   "name": "a_marinkovich_web",
   "version": "1.0.0",
   "type": "module",
+  "licenses": "MIT",
   "homepage": "https://aleishamarinkovich.github.io",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
