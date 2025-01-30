@@ -4,7 +4,7 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  base: '/',
+  base: '/A_Marinkovich_Web/',
   build: {
     outDir: 'dist',
   },
