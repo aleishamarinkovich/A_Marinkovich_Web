@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-    "build": "run-s build:client build:server",
+    "build": "vite build",
     "build:client": "vite build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
